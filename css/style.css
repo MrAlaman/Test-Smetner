@@ -1,0 +1,189 @@
+* {margin: 0; box-sizing: border-box;}
+body {
+	background: #19263d url(../img/back.png) center no-repeat ;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+}
+
+/*******************************************F O R M**********************************************************************************/
+
+form {
+    width: 100%;
+    display: flex;
+    padding: 0 15em 0 15em;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+input {
+    font-size: 14px;
+    font-family: OpenSans;
+    color: #777777;
+    width: 30em;
+    border-radius: 4px;
+    padding: 12px 15px;
+}
+textarea {
+	resize: none;
+    height: 100%;
+    width: 30em;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: OpenSans;
+	padding: 12px 15px;
+}
+.msg {
+	padding: 0 15em 0 15em;
+}
+
+/***********************************************S E C T I O N S*********************************************************************/
+
+.center {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+    width: 100%;
+}
+.s1 {
+	padding-top: 2em;
+	display: flex;
+	flex-direction: column;
+    text-align: center;
+    height: 40vh;
+    width: 100%;
+    justify-content: center;
+}
+.s2 {display: flex;}
+.s21 {width: 100%;}
+.s211 {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer {
+	display: flex;
+	height: 14em;
+	flex-direction: column;
+}
+.footer1 {
+    margin-top: 6em;
+    max-height: 2px;
+    overflow: hidden; 
+}
+.footer2 {
+    display: block;
+    text-align: center;
+    margin-top: 2.5em;
+    font-size: 13px;
+    font-family: OpenSans;
+    color: #ffffff; 
+}
+
+/*************************************************T E X T     S T Y L E S**********************************************************/
+
+.t1 {
+	font-family: HelveticaNeueLTStd;
+    text-transform: uppercase;
+    font-size: 2.5em;
+    transform: scale(1, 1.5);
+    color: #e76122;
+    line-height: 2;
+}
+.t2 {
+	font-size: 1.1em;
+	color: #fff;
+	font-family: OpenSans;
+}
+.t3 {
+    font-family: HelveticaNeueLTStd;
+    font-size: 22px;
+    color: #e76122;
+    text-transform: uppercase;
+    text-align: center;
+    transform: scale(1, 1.5)
+}
+.t4 {
+	margin-top: 1em;
+	margin-bottom: 1.5em;
+    display: block;
+    text-align: center;
+    font-family: OpenSans;
+    font-style: italic;
+    color: #ffffff;
+    font-size: 16px; 
+}
+
+/*************************************************S O C I A L    N E T W O R K S**********************************************/
+
+.icons {
+    margin: 22px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12em; 
+}
+.sn {
+    width: 2.5em;
+    border-radius: 50%;
+    height: 2.5em;
+    line-height: 0; 
+}
+.sn_facebook {
+    background-color: #5378bc;
+    display: flex;
+	justify-content: center;
+    align-items: center; 
+}
+.sn_facebook::after {content: url("../img/facebook.png");}
+.sn_twitter {
+    background-color: #36d0f7;
+    display: flex;
+	justify-content: center;
+    align-items: center; 
+}
+.sn_twitter::after {content: url("../img/twitter.png");}
+.sn_linkedin {
+    background-color: #007ab5;
+    display: flex;
+	justify-content: center;
+	align-items: center; 
+}
+.sn_linkedin::after {content: url("../img/linkedin.png");}
+.sn_pinterest {
+    background-color: #e92a2a;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.sn_pinterest::after {content: url("../img/pinterest.png");}
+
+/*************************************************B U T T O N S********************************************************************/
+
+.button {
+	padding: 1em 2em;
+	font-size: 16px;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	background-color: #5dbdb1;
+  	color: #ffffff;
+  	cursor: pointer;
+}
+.button1 {
+    width: 15em;
+    margin: 2em auto 0 auto; 
+}
+.button2 {
+    display: block;
+    margin: 20px auto 0 auto;
+    width: 15px;
+    height: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    background-image: url("../img/arrow.png");
+    cursor: pointer; 
+}

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "HelveticaNeueLTStd";
+  src: url("../fonts/HelveticaNeueLTStd.otf");
+  font-style: normal;
+  font-weight: 800; }
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans-Italic.ttf");
+  font-style: italic;
+  font-weight: 800; }
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("../fonts/OpenSans-Regular.ttf");
+  font-style: normal;
+  font-weight: 800; }
